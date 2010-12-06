@@ -1,0 +1,19 @@
+<package type="addon" name="automated-document-categorization" version="1.0.0">
+  <title>Automated Document Categorization</title>
+  <description>Available for any Nuxeo platform-based application,
+    this package registers an event listener that tries to automatically
+    complete some of the document metadata (language, subjects and geographic
+    coverage) of any newly created document based on the textual content
+    of the file attachment.</description>
+  <vendor>Nuxeo</vendor>
+  <hotreload-support>false</hotreload-support>
+  <supported>false</supported>
+  <require-terms-and-conditions-acceptance>false</require-terms-and-conditions-acceptance>
+  <production-state>testing</production-state>
+  <nuxeo-validation>none</nuxeo-validation>
+  <platforms>
+    <platform>dm-5.3.2</platform>
+    <platform>dm-5.4.0</platform>
+    <platform>dm-5.4.0.1</platform>
+  </platforms>
+</package>

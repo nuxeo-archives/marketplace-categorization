@@ -1,0 +1,9 @@
+<project name="automated-document-categorization" default="marketplace">
+  <property name="build.dir" value="target/marketplace" />
+  <target name="marketplace">
+    <copy todir="${build.dir}">
+      <fileset dir="marketplace" />
+    </copy>
+    <zip destfile="target/automated-document-categorization-1.0.0.zip" basedir="${build.dir}"/>
+  </target>
+</project>
