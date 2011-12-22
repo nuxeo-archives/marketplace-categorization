@@ -8,18 +8,15 @@
   <vendor>Nuxeo</vendor>
   <installer restart="false" />
   <uninstaller restart="true" />
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
   <production-state>testing</production-state>
-  <nuxeo-validation>none</nuxeo-validation>
+  <supported>false</supported>
   <platforms>
-    <platform>dm-5.3.2</platform>
-    <platform>dm-5.4.0</platform>
-    <platform>dm-5.4.0.1</platform>
-    <platform>dm-5.4.2</platform>
-    <platform>dm-5.5</platform>
+    <platform>cap-5.5</platform>
   </platforms>
   <supported>true</supported>
   <dependencies>
-    <package>nuxeo-dm:5.3.2:5.5.0</package>
+    <package>nuxeo-content-browser:1.0.0:1.0.0</package>
   </dependencies>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
