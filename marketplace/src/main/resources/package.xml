@@ -11,7 +11,7 @@
   <nuxeo-validation>nuxeo_certified</nuxeo-validation>
   <production-state>testing</production-state>
   <platforms>
-    <platform>cap-5.5</platform>
+    <platform>cap-@DISTVERSION@</platform>
   </platforms>
   <supported>true</supported>
   <license>LGPL</license>
