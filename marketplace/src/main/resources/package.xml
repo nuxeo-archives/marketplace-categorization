@@ -10,14 +10,10 @@
   <uninstaller restart="true" />
   <nuxeo-validation>nuxeo_certified</nuxeo-validation>
   <production-state>testing</production-state>
-  <supported>false</supported>
   <platforms>
     <platform>cap-5.5</platform>
   </platforms>
   <supported>true</supported>
-  <dependencies>
-    <package>nuxeo-content-browser:1.0.0:1.0.0</package>
-  </dependencies>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
 </package>
