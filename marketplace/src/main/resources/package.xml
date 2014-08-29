@@ -17,4 +17,5 @@
   <supported>true</supported>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+  <visibility>PUBLIC</visibility>
 </package>
