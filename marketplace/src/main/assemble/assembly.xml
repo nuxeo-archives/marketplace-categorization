@@ -15,10 +15,10 @@
     </copy>
 
     <copy todir="${maven.project.build.directory}/marketplace/install/bundles">
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-service::jar" />
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-language::jar" />
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-subjects::jar" />
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-coverage::jar" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-service" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-language" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-subjects" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-platform-categorization-coverage" />
     </copy>
 
     <copy todir="${maven.project.build.directory}/marketplace/install/lib">
